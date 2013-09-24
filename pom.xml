@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.io.maven.plugins</groupId>
 	<artifactId>duplicates-enforcer-plugin</artifactId>
-	<version>1.0.4</version>
+	<version>1.0.5-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<parent>
 		<groupId>com.github.io.mikesena.maven</groupId>
@@ -16,7 +16,7 @@
 	<inceptionYear>2013</inceptionYear>
 	<scm>
 		<connection>scm:git:https://github.com/mikesena/duplicates-enforcer-plugin.git</connection>
-		<tag>duplicates-enforcer-plugin-1.0.4</tag>
+		<tag>HEAD</tag>
 		<url>https://github.com/mikesena/duplicates-enforcer-plugin.git</url>
 	</scm>
 	<properties>
