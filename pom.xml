@@ -79,6 +79,20 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-invoker-plugin</artifactId>
                 <version>1.8</version>
+                <executions>
+                    <execution>
+                        <id>it</id>
+                        <goals>
+                            <goal>install</goal>
+                            <goal>run</goal>
+                        </goals>
+                        <configuration>
+                            <skipInvocation>${skipTests}</skipInvocation>
+                            <disableReports>true</disableReports>
+                            <streamLogs>false</streamLogs>
+                        </configuration>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
