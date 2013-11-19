@@ -31,7 +31,7 @@
                 </executions>
                 <configuration>
                     <rules>
-                        <duplicatesRule implementation="com.github.io.maven.plugins.enforcer.DuplicatesRule">
+                        <duplicatesRule implementation="com.github.mikesena.maven.plugins.enforcer.DuplicatesRule">
                             <includes>
                                 <include>org.apache.EKLCUDED.*</include>
                             </includes>

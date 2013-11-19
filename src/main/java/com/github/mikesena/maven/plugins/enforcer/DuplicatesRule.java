@@ -17,7 +17,7 @@
  * OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package com.github.io.maven.plugins.enforcer;
+package com.github.mikesena.maven.plugins.enforcer;
 
 import java.io.IOException;
 import java.util.ArrayList;
