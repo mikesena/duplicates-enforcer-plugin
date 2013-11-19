@@ -8,7 +8,7 @@
     </parent>
     <groupId>com.github.mikesena.maven.plugins</groupId>
     <artifactId>duplicates-enforcer-plugin</artifactId>
-    <version>1.0.6</version>
+    <version>1.0.7-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Duplicates Enforcer Plugin</name>
     <description>Ensures that within artifact dependencies, there aren't any duplicate classes.</description>
@@ -33,7 +33,7 @@
     </developers>
     <scm>
         <connection>scm:git:https://github.com/mikesena/duplicates-enforcer-plugin.git</connection>
-        <tag>duplicates-enforcer-plugin-1.0.6</tag>
+        <tag>HEAD</tag>
         <url>https://github.com/mikesena/duplicates-enforcer-plugin.git</url>
     </scm>
     <properties>
