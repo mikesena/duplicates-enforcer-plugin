@@ -19,7 +19,7 @@
             <name>The MIT License (MIT)</name>
             <url>http://opensource.org/licenses/MIT</url>
             <distribution>repo</distribution>
-            <comments />
+            <comments></comments>
         </license>
     </licenses>
     <developers>
@@ -62,15 +62,9 @@
             <version>${api.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.codehaus.plexus</groupId>
-            <artifactId>plexus-container-default</artifactId>
-            <version>1.5.5</version>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.11</version>
-            <scope>test</scope>
+            <groupId>org.sonatype.sisu</groupId>
+            <artifactId>sisu-inject-plexus</artifactId>
+            <version>2.1.1</version>
         </dependency>
     </dependencies>
     <build>
