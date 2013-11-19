@@ -8,7 +8,7 @@
     </parent>
     <groupId>com.github.mikesena.maven.plugins</groupId>
     <artifactId>duplicates-enforcer-plugin</artifactId>
-    <version>1.0.6-SNAPSHOT</version>
+    <version>1.0.6</version>
     <packaging>jar</packaging>
     <name>Duplicates Enforcer Plugin</name>
     <description>Ensures that within artifact dependencies, there aren't any duplicate classes.</description>
@@ -19,7 +19,7 @@
             <name>The MIT License (MIT)</name>
             <url>http://opensource.org/licenses/MIT</url>
             <distribution>repo</distribution>
-            <comments></comments>
+            <comments />
         </license>
     </licenses>
     <developers>
@@ -33,7 +33,7 @@
     </developers>
     <scm>
         <connection>scm:git:https://github.com/mikesena/duplicates-enforcer-plugin.git</connection>
-        <tag>HEAD</tag>
+        <tag>duplicates-enforcer-plugin-1.0.6</tag>
         <url>https://github.com/mikesena/duplicates-enforcer-plugin.git</url>
     </scm>
     <properties>
